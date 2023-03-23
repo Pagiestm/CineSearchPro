@@ -9,6 +9,13 @@ if (isset($_POST["search"])) {
     // Obtenir les résultats de recherche de l'API TMDb
     $search_results = json_decode(file_get_contents($search_url), true);
 
+    // Journalisation de la recherche
+    $log_file = dirname(__FILE__) . '/../logs/recherche.log';
+    $search_term = $_POST['search'];
+    $search_date = date('Y-m-d H:i:s');
+    $log_line = "$search_date - $search_term\n";
+    file_put_contents($log_file, $log_line, FILE_APPEND);
+
     // Passer les résultats de recherche à la vue
     if ($search_results["total_results"] > 0) {
         $movie_details = $search_results["results"][0];
