@@ -1,5 +1,4 @@
 <?php
-session_start();
 require "../Model/config.php";
 
 if (isset($_POST["search"])) {
@@ -16,6 +15,6 @@ if (isset($_POST["search"])) {
     } else {
         $movie_details = null;
     }
-    include("../View/home.php");
+    include ("../View/home.php");
 }
 ?>
