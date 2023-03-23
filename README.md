@@ -42,6 +42,4 @@ aux différentes étapes de développement
 
 ## Résultats
 
-[Vidéo de Présentation](./doc/video.md)
-
-Petit vidéo pour voir le rendu de l'application.
+[Présentation de l'application](./doc/Presentation.md)
