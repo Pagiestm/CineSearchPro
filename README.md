@@ -39,3 +39,7 @@ l'affichage des informations sur les films et la fonctionnalité de recherche
 conception et les limitations éventuelles
 - Un repository Git contenant tout le code source et les commits correspondants
 aux différentes étapes de développement
+
+## [Résultats](./doc/video.md)
+
+Petit vidéo pour voir le rendu de l'application.
