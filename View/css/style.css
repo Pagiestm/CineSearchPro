@@ -1,5 +1,4 @@
-/* Styles pour le conteneur principal */
-#movie-container {
+#film-container {
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
@@ -9,8 +8,20 @@
     margin-bottom: 20px;
 }
 
-/* Styles pour l'image du film */
-#movie-img {
+#titre-film {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#date-réalisation-film {
+    font-size: 14px;
+    text-align: center;
+    color: #888;
+}
+
+#img-film {
     width: 25%;
     max-width: 500px;
     height: auto;
@@ -18,23 +29,7 @@
     margin: auto;
 }
 
-/* Styles pour le titre */
-#movie-title {
-    font-size: 32px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* Styles pour la date de sortie */
-#movie-release-date {
-    font-size: 14px;
-    text-align: center;
-    color: #888;
-}
-
-/* Styles pour la description */
-#movie-description {
+#description-film {
     font-size: 16px;
     line-height: 1.5;
     margin-top: 20px;
@@ -42,12 +37,12 @@
     text-align: center;
 }
 
-#movie-realisateurs {
+#realisateur-film {
     text-decoration: underline;
     text-align: center;
 }
 
-#movie-realisateurs-name {
+#nom-realisateur-film {
     list-style-type: none;
     text-align: center;
     margin-right: 30px;

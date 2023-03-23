@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -19,7 +19,7 @@
             </button>
             <div class="navbar-collapse collapse" id="navbarSupportedContent">
                 <form method="POST" class="d-flex ms-auto" role="search">
-                    <input class="form-control me-2" type="text" placeholder="Rechercher un film" name="search" id="search">
+                    <input class="form-control me-2" type="text" placeholder="Rechercher un film" name="rechercher" id="rechercher">
                     <button class="btn btn-outline-success" type="submit">Rechercher</button>
                 </form>
             </div>
