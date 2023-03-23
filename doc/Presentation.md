@@ -16,10 +16,8 @@ En utilisant ce modèle, l'application est mieux organisée et plus facile à ma
 
 ## La Vue (View)
 
-[Explication de la vue](./doc/MVC/vue.md)
+[Explication de la vue](../doc/MVC/vue.md)
 
 Le premier code représente la vue d'affichage des détails du film sélectionné. Lorsque l'utilisateur saisit un titre de film dans la barre de recherche et soumet le formulaire, une requête POST est envoyée à la page d'accueil de l'application. Si le champ de recherche est rempli, la requête de recherche est envoyée à l'API TMDb en utilisant la clé d'API fournie. Ensuite, le résultat de la recherche est stocké dans une variable $search_results. Si la recherche donne un résultat, le premier film de la liste est stocké dans la variable $movie_details. Les détails du film sont ensuite affichés à l'aide de la syntaxe PHP et HTML.
-
-Le deuxième code représente la barre de navigation de l'application. Elle utilise le framework Bootstrap pour créer une barre de navigation responsive avec un formulaire de recherche. Le formulaire de recherche envoie également une requête POST à la page d'accueil de l'application lorsque l'utilisateur soumet une recherche.
 
 En fin de compte, le code PHP situé en bas de la page d'accueil est responsable de la logique métier de l'application. Il vérifie si une requête de recherche a été soumise, effectue la recherche à l'aide de l'API TMDb, enregistre la recherche dans un fichier journal, et passe les résultats de recherche à la vue pour affichage.
