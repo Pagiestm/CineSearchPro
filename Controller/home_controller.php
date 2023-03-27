@@ -3,6 +3,7 @@ require "../Model/config.php";
 require "../View/navbar.php";
 
 if (isset($_POST["rechercher"])) {
+    
     // Recherche de films avec un titre spécifique
     $search_query = urlencode($_POST["rechercher"]);
     $search_url = "https://api.themoviedb.org/3/search/movie?api_key={$api_key}&query={$search_query}";
@@ -19,7 +20,7 @@ if (isset($_POST["rechercher"])) {
         file_put_contents($fichier_log, $ligne_log, FILE_APPEND);
     }
 
-    // Passer les résultats de recherche à la vue
+    // Passer les résultats de la recherche à la vue
     if ($search_results["total_results"] > 0) {
         $movie_details = $search_results["results"][0];
     } else {

@@ -12,7 +12,7 @@ Ce modèle d'architecture de conception est utilisé pour développer des applic
 
 ## Pourquoi utiliser le modèle MVC ?
 
-En utilisant ce modèle, l'application est mieux organisée et plus facile à maintenir, car chaque partie est indépendante et peut être modifiée sans affecter les autres parties. Par exemple, si une modification est apportée à la logique de l'application, seule la partie modèle est affectée, la vue et le contrôleur restent intacts. Cela facilite également le test de l'application car chaque partie peut être testée séparément.
+En utilisant ce modèle, l'application est mieux organisée et plus facile à maintenir, car chaque partie est indépendante et peut être modifiée sans affecter les autres parties. Par exemple, si une modification est apportée à la logique de l'application, seule la partie modèle est affectée, la vue et le contrôleur restent intacts. Cela facilite également le test de l'application, car chaque partie peut être testée séparément.
 
 ## La Vue (View)
 
@@ -20,4 +20,8 @@ En utilisant ce modèle, l'application est mieux organisée et plus facile à ma
 
 ## Le Model et la configuration
 
-[Explication du Model](../doc/MVC/model.md)
+[Explication du Model](../doc/MVC/model.md) 
+
+## Le Controller
+
+[Explication du Controller](../doc/MVC/controller.md)
