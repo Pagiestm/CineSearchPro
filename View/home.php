@@ -10,8 +10,6 @@
 
 <body>
 
-	<?php require "../View/navbar.php"; ?>
-
 	<div id="film-container">
 
 		<?php
@@ -30,7 +28,7 @@
 				return $crew["job"] === "Director";
 			});
 			if (count($directors) > 0) {
-				echo "<p id='realisateur-film'>Réalisateur :</p>";
+				echo "<p id='realisateur-film'>Réalisateurs :</p>";
 				echo "<ul>";
 				foreach ($directors as $director) {
 					echo "<li id='nom-realisateur-film'>" . $director["name"] . "</li>";

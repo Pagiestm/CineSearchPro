@@ -1,12 +1,12 @@
 # Présentation de la vue
 
-Dans le dossier nous pouvons retrouver un dossier css ou est stocké le fichier "style.css" concernant la présentation visuelle de page web et deux fichier : "navbar.php" qui représente la barre de navigation et "home.php" qui montre la page principal.
+Dans le répertoire "View" nous pouvons retrouver un dossier "css" ou est stocké le fichier "style.css" concernant la présentation visuelle de la page web et deux autres fichier : "navbar.php" qui représente la barre de navigation et "home.php" qui montre la page principal.
 
 # La navbar 
 
-## Pourquoi séparer la navbar à mon fichier home.php ?
+## Pourquoi séparer la navbar de mon fichier home.php ?
 
-La navbar est un élément récurrent qui est présent sur de nombreuses pages de l'application, et il est donc logique de le réutiliser à travers toutes ces pages.
+La navbar est un élément récurrent qui est présent sur de nombreuses pages de l'application, et il est donc logique de la réutiliser à travers toutes ces pages.
 
 En séparant la navbar dans un fichier distinct, on peut simplement inclure ce fichier dans chaque page de l'application où la navbar est nécessaire. Cela permet de réduire la duplication de code et de faciliter la maintenance de l'application. Si des modifications doivent être apportées à la navbar, il suffit de les apporter dans le fichier de la navbar et les modifications seront automatiquement appliquées sur toutes les pages qui incluent ce fichier.
 

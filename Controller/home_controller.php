@@ -1,5 +1,6 @@
 <?php
 require "../Model/config.php";
+require "../View/navbar.php";
 
 if (isset($_POST["rechercher"])) {
     // Recherche de films avec un titre spécifique

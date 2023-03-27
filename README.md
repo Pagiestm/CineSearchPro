@@ -42,4 +42,4 @@ aux différentes étapes de développement
 
 ## Résultats
 
-[Présentation de l'application](./doc/Presentation.md)
+Retrouvé ici les détails de l'application : [Présentation de l'application](./doc/Presentation.md)
