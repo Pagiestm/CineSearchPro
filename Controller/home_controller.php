@@ -15,7 +15,8 @@ if (isset($_POST["rechercher"])) {
     if (!empty($_POST['rechercher'])) {
         $fichier_log = dirname(__FILE__) . '/../logs/recherche.log';
         $titre_recherche = $_POST['rechercher'];
-        $date_recherche = date('Y-m-d H:i:s');
+        date_default_timezone_set('Europe/Paris'); // permet de Définir le fuseau horaire à l'heure française
+        $date_recherche = date('d-m-Y H:i:s');
         $ligne_log = "$date_recherche - $titre_recherche\n";
         file_put_contents($fichier_log, $ligne_log, FILE_APPEND);
     }
