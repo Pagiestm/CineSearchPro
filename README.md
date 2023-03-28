@@ -43,3 +43,5 @@ aux différentes étapes de développement
 ## Résultats
 
 Retrouvé ici les détails de l'application : [Présentation de l'application](./doc/Presentation.md)
+
+Vidéo de Démonstration : [CineSearchPro](./doc/CineSearchPro_Video_De_Démonstration.webm)
